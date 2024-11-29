@@ -27,7 +27,7 @@ Traditional video creation often requires specialized skills, resources, and sig
 To clone and set up this project, follow these steps:
 
 ```bash
-git clone https://github.com/aryanntated/Text-to-Video.git
+git clone https://github.com/HiyaJain22/Text-to-Video
 cd Text-to-Video
 ```
 
