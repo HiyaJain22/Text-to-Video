@@ -1,4 +1,4 @@
-# Text-to-Video: Generating Engaging Videos from Textual Stories
+# Text-to-Video Synthesis through Context-Aware Fine-Tuning and Frame Interpolation
 
 This project presents a novel methodology for creating engaging videos from textual story prompts, focusing on the popular Indian animated character Chhota Bheem. By combining advanced techniques in natural language processing, image generation, and video interpolation, we aim to simplify and democratize the video creation process.
 
@@ -10,7 +10,7 @@ This project presents a novel methodology for creating engaging videos from text
 - [Installation](#installation)
 - [Methodology](#methodology)
 - [Results](#results)
-- [Contributing](#contributing)
+- [Conclusion](#conclusion)
 
 ## Overview
 
@@ -23,6 +23,7 @@ This repository hosts the code, datasets, and results for the paper "Text-to-Vid
     - Fine-tuned Stable Diffusion for frame generation.
     - FILM algorithm for smooth frame interpolation.
     - Google Text-to-Speech for audio narration.
+![Example](https://github.com/HiyaJain22/Text-to-Video/blob/main/Images\chotta_bheem.mp4?raw=true)
 
 ## Related Works
 - Text-to-Video Synthesis:
@@ -53,7 +54,7 @@ cd Text-to-Video
 ```
 - The main code lies in Final_IPD.ipynb
 ## Methodology
-![arcchitecture](https://github.com/HiyaJain22/Text-to-Video/blob/main/Images/architecture.png?raw=true)
+![architecture](https://github.com/HiyaJain22/Text-to-Video/blob/main/Images/architecture.png?raw=true)
 
 - **Coreference Resolution:**
     - SpanBERT-based model ensures consistency in context across video frames.
@@ -67,12 +68,16 @@ cd Text-to-Video
     - Google TTS for audio narration, enhancing storytelling with synchronized visuals and sound.
 
 ## Results
+- Dataset:
+    - Custom dataset of Chhota Bheem images and captions.
+    - Fine-tuning details, including hyperparameters and preprocessing steps.
+- Performance Evaluation:
+    - Comparison of baseline and fine-tuned Stable Diffusion models using CLIP Score.
+- Prompt Comparison:
+    - Analysis of 1-line and multi-line prompts, highlighting the custom model's superior contextual understanding.
 
-- The system demonstrates effectiveness in generating coherent videos, particularly for shorter prompts.
-- Performance is evaluated using the CLIP Score, showing improved results compared to baseline models.
-- Challenges in maintaining coherence with longer and more complex prompts have been identified and discussed.
-
-## Contributing
-
-We welcome contributions to improve this project. Please feel free to submit issues or pull requests.
+## Conclusion
+- Summary of contributions, emphasizing advancements in text-to-video synthesis.
+- Advantages of fine-tuning models for domain-specific applications.
+- Practical applications in education, storytelling, and entertainment.
 
