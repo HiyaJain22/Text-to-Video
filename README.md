@@ -23,7 +23,6 @@ This repository hosts the code, datasets, and results for the paper "Text-to-Vid
     - Fine-tuned Stable Diffusion for frame generation.
     - FILM algorithm for smooth frame interpolation.
     - Google Text-to-Speech for audio narration.
-![Example](https://github.com/HiyaJain22/Text-to-Video/blob/main/Images\chotta_bheem.mp4?raw=true)
 
 ## Related Works
 - Text-to-Video Synthesis:
