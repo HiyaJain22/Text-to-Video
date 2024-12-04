@@ -14,6 +14,10 @@ This project presents a novel methodology for creating engaging videos from text
 
 ## Overview
 
+https://github.com/user-attachments/assets/9c143062-69fb-4acd-8016-084e671902af
+
+
+
 This repository hosts the code, datasets, and results for the paper "Text-to-Video Synthesis through Context-Aware Fine-Tuning and Frame Interpolation". The project introduces a novel architecture for generating high-quality videos from textual descriptions, leveraging advanced AI techniques like fine-tuned Stable Diffusion models, coreference resolution, and frame interpolation.
 
 ## Introduction
