@@ -53,7 +53,7 @@ cd Text-to-Video
 ```
 - The main code lies in Final_IPD.ipynb
 ## Methodology
-![arcchitecture](https://github.com/HiyaJain22/Text-to-Video/Images\architecture.png)
+![arcchitecture](https://github.com/HiyaJain22/Text-to-Video/blob/main/Images/architecture.png?raw=true)
 
 - **Coreference Resolution:**
     - SpanBERT-based model ensures consistency in context across video frames.
